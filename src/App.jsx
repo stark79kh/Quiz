@@ -169,6 +169,110 @@ function App() {
         },
       ],
     },
+    {
+      id: 7,
+      question: "Phần tử HTML nào định nghĩa dữ liệu sẽ hiển thị trên thanh tiêu đề của tài liệu?",
+      answers: [
+        {
+          select: "A",
+          text: "<title>",
+          correct: true,
+        },
+        {
+          select: "B",
+          text: "<meta>",
+          correct: false,
+        },
+        {
+          select: "C",
+          text: "<body>",
+          correct: false,
+        },
+        {
+          select: "D",
+          text: "<html>",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 8,
+      question: "Đâu là phần tử HTML tạo ra một danh sách đầu mục bởi dấu chấm?",
+      answers: [
+        {
+          select: "A",
+          text: "<list>",
+          correct: false,
+        },
+        {
+          select: "B",
+          text: "<dl>",
+          correct: false,
+        },
+        {
+          select: "C",
+          text: "<ul>",
+          correct: true,
+        },
+        {
+          select: "D",
+          text: "<ol>",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 9,
+      question: "Thuộc tính HTML nào xác định một văn bản sẽ dùng thay thế cho hình ảnh, nếu hình ảnh không thể được hiển thị?",
+      answers: [
+        {
+          select: "A",
+          text: "src",
+          correct: false,
+        },
+        {
+          select: "B",
+          text: "alt",
+          correct: true,
+        },
+        {
+          select: "C",
+          text: "title",
+          correct: false,
+        },
+        {
+          select: "D",
+          text: "longdesc",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 10,
+      question: "Đâu là cách chèn css vào html",
+      answers: [
+        {
+          select: "A",
+          text: "inline",
+          correct: false,
+        },
+        {
+          select: "B",
+          text: "internal",
+          correct: false,
+        },
+        {
+          select: "C",
+          text: "external",
+          correct: false,
+        },
+        {
+          select: "D",
+          text: "tất cả đều đúng",
+          correct: true,
+        },
+      ],
+    },
   ];
 
   const mapPyramid = useMemo(
